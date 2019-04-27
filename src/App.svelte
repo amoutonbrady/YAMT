@@ -45,6 +45,7 @@
 	}
 
 	:global(body) {
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 		margin: 0;
 		padding: 0;
 	}
@@ -78,6 +79,8 @@
 		height: 100%;
 		padding: calc(17px + 15px);
 		margin: 0;
+		font-family: inherit;
+		font-size: inherit;
 	}
 
 	textarea:focus {
