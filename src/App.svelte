@@ -110,7 +110,7 @@
 
 	a {
 		text-decoration: none;
-		color: #ff3e00;
+		color: #a32900;
 	}
 
 	a:hover {
