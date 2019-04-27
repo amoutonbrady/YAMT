@@ -24,8 +24,11 @@
 
 <!-- VIEW -->
 <main>
-	<textarea bind:value={$text}></textarea>
-	<textarea bind:value={$morse} bind:this={morseRef}></textarea>
+	<label for="text">Enter the text to be translated</label>
+	<textarea name="text" id="text" bind:value={$text}></textarea>
+
+	<label for="morse">Enter your morse text</label>
+	<textarea name="morse" id="morse" bind:value={$morse} bind:this={morseRef}></textarea>
 
 	{#if $morse.length > 0}
 		<button transition:fade on:click={Clipboard}>Copy to clipboard</button>
@@ -69,6 +72,17 @@
 		position: relative;
 		background: #f8c291;
 		padding: 2px;
+	}
+
+	label {
+		clip: rect(1px, 1px, 1px, 1px);
+		clip-path: inset(50%);
+		height: 1px;
+		width: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
 	}
 
 	textarea {
