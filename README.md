@@ -12,3 +12,4 @@ Thanks to:
 * [js-morse](https://github.com/zhikiri/js-morse) from where I got the actual `decode` & `encode` functions. I refactored it a little bit to suit my needs.
 * [RealFaviconGenerator](https://realfavicongenerator.net) for the generation of favicon & open graph meta tags.
 * [Feather Icons](https://feathericons.com/) for some of the icons.
+* [FlatUIColors](https://flatuicolors.com/palette/fr) for the colors.
