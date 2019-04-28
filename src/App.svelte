@@ -23,6 +23,7 @@
 
 
 <!-- VIEW -->
+
 <main>
 	<label for="text">Enter the text to be translated</label>
 	<textarea name="text" id="text" bind:value={$text}></textarea>
@@ -33,11 +34,11 @@
 	{#if $morse.length > 0}
 		<button transition:fade on:click={Clipboard}>Copy to clipboard</button>
 	{/if}
+
+	<Notification bind:this={notificationRef} />
+	
+	<p>Made with <a href="https://svelte.dev/">Svelte</a> - (<a href="https://github.com/amoutonbrady/YAMT">source</a>)</p>
 </main>
-
-<Notification bind:this={notificationRef} />
-
-<p>Made with <a href="https://svelte.dev/">Svelte</a> - (<a href="https://github.com/amoutonbrady/YAMT">source</a>)</p>
 
 
 <!-- STYLES -->
@@ -141,4 +142,4 @@
 			height: calc(50% - 1px);
 		}
 	}
-	</style>
+</style>
