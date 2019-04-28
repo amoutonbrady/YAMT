@@ -37,7 +37,7 @@
 
 <Notification bind:this={notificationRef} />
 
-<p>Made with <a href="https://svelte.dev/">Svelte</a> - (<a href="https://github.com/">source</a>)</p>
+<p>Made with <a href="https://svelte.dev/">Svelte</a> - (<a href="https://github.com/amoutonbrady/YAMT">source</a>)</p>
 
 
 <!-- STYLES -->
